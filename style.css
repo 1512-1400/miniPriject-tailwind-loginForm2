@@ -1,0 +1,25 @@
+* {
+  transition: all ease 0.5s;
+}
+#main-box {
+  position: relative;
+  overflow: hidden;
+  background-image: url(./nature-image.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+#gradient {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(70deg, #1f2937 60%, transparent 200%);
+  z-index: 1;
+}
+#left-box {
+  z-index: 2;
+  clip-path: polygon(0 0, 84% 0, 100% 100%, 0% 100%);
+} #first-name-box, #last-name-box, #email-box, #password-box, #first-name-box input, #last-name-box input, #email-box input, #password-box input, #first-name-box div, #last-name-box div, #email-box div, #password-box div, #first-name-box label, #last-name-box label, #email-box label, #password-box label {
+  cursor: pointer;
+}

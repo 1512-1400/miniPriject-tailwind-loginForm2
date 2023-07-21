@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href=https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css rel=stylesheet>
+  <title>tailwind project2</title>
+  <link href="./tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body class=" flex justify-center items-center h-screen bg-gray-600">
+  <div id="main-box" class="w-3/5 h-4/5 bg-blue-500 rounded-2xl flex capitalize font-sans">
+    <div id="gradient"></div>
+    <div id="left-box" class="w-3/5 bg-gray-800 px-14 py-6 ">
+      <!-- menu and logo start -->
+      <div id="menu-and-logo" class="w-full flex items-center justify-left mb-5">
+        <img src="./logo-one-copy.png" alt="logo" class="w-1/5">
+        <ul class="flex justify-around w-3/5 text-gray-500 text-sm font-bold">
+          <li>home</li>
+          <li>join</li>
+        </ul>
+      </div>
+      <!-- menu and logo end -->
+      <!-- center texts start -->
+      <div class="h-10 bg-transparent"></div>
+      <p id="first-text" class="uppercase text-gray-500 font-bold text-sm">start for free</p>
+      <h1 id="main-text" class="text-4xl font-bold normal-case text-white">Create new account<span class="text-blue-500">.</span></h1>
+      <p id="start-for-free" class="text-gray-500 text-sm mt-2">already a member? <a href="#" class="text-blue-500">log in </a></p> 
+      <!-- center texts end -->
+      <!-- inputs start -->
+      <div id="name-inputs-conteiner" class=" flex justify-center mt-5 w-4/5">
+        <div id="first-name-box" class="w-4/6 px-2 border-black rounded-xl bg-gray-600 flex flex-row items-center border-2 border-gray-600 mr-5 hover:border-gray-600 hover:bg-gray-800 cursor-text">
+          <div id="input-and-lable-first" class="flex flex-col">
+            <label for="first-name-input" class="text-xs text-gray-400 font-thin cursor-text">first name:</label>
+            <input type="text" name="first-name-input" id="first-name-input" class="bg-transparent w-full h-4 mb-1  ml-2 pr-2 border-none outline-none text-gray-400 text-sm font-bold">
+          </div>
+          <img src="./z.png" alt="z" class="w-5 h-5">
+        </div>
+        <div id="last-name-box" class="w-4/6 px-2 border-black rounded-xl bg-gray-600 flex flex-row items-center border-2 border-gray-600 hover:border-gray-600 hover:bg-gray-800 cursor-text">
+          <div id="input-and-lable-last" class="flex flex-col">
+            <label for="last-name-input" class="text-xs text-gray-400 font-thin cursor-text">last name:</label>
+            <input type="text" name="last-name-input" id="last-name-input" class="bg-transparent pr-2 w-full mb-1 h-4 border-none outline-none text-gray-400 text-sm font-bold ml-2">
+          </div>
+          <img src="./z.png" alt="z" class="w-5 h-5">
+        </div>
+      </div>
+      <div id="email-and-pass-inputs-container">
+        <div id="email-box" class="w-4/5 px-2 mt-3 rounded-xl bg-gray-600 flex flex-row items-center justify-between border-2 border-gray-600 hover:border-gray-500 hover:bg-gray-800 cursor-text">
+          <div id="input-and-lable-first" class="flex flex-col">
+            <label for="email-input" class="text-xs text-gray-400 font-thin cursor-text">email:</label>
+            <input type="email" name="email-input" id="email-input" class="bg-transparent h-4 mb-1 ml-2 border-none outline-none text-gray-400 text-sm font-bold">
+          </div>
+          <img src="./z.png" alt="z" class="w-5 h-5">
+        </div>
+        <div id="password-box" class="w-4/5 mt-3 px-2 rounded-xl bg-gray-600 flex flex-row items-center justify-between border-2 border-gray-600 hover:border-gray-500 hover:bg-gray-800 cursor-text">
+          <div id="input-and-lable-first" class="flex flex-col">
+            <label for="password-input" class="text-xs text-gray-400 font-thin cursor-text">password:</label>
+            <input type="password" name="password-input" id="password-input" class="bg-transparent h-4 mb-1 ml-2 border-none outline-none text-gray-400 text-sm font-bold">
+          </div>
+          <img src="./z.png" alt="z" class="w-5 h-5">
+        </div>
+      </div>
+      <!-- inputs end -->
+      <!-- buttons start -->
+      <div id="buttons-container" class=" flex justify-center items-center w-4/5 mt-6">
+        <button class="text-white text-xs font-bold w-4/6 py-3 bg-gray-600 rounded-3xl mr-3 hover:bg-blue-500">change method</button>
+        <button class="text-white text-xs font-bold w-4/6 py-3 bg-blue-500 rounded-3xl hover:bg-gray-600">create account</button>
+      </div>
+      <!-- buttons end -->
+    </div>
+  </div>
+</body>
+</html>
